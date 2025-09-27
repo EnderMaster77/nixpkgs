@@ -28,7 +28,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "ludouzi";
     repo = "fooyin";
     tag = "v" + finalAttrs.version;
-    hash = "sha256-549AtdldAPFengQsVXMnZI0mVzUwgKgUKAfR0Ro3s2I=";
+    hash = "sha256-330af28a7f77e340ef4ef6b7245744ba68a4d187";
   };
 
   buildInputs = [
