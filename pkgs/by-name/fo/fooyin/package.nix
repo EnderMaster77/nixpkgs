@@ -2,6 +2,7 @@
   stdenv,
   lib,
   fetchFromGitHub,
+  fetchpatch,
   cmake,
   pkg-config,
   alsa-lib,
@@ -28,7 +29,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "ludouzi";
     repo = "fooyin";
     tag = "v" + finalAttrs.version;
-    hash = "sha256-330af28a7f77e340ef4ef6b7245744ba68a4d187";
+    hash = "sha256-71d80a68282f577c9d8ca0281320747b72c5e857";
   };
 
   buildInputs = [
